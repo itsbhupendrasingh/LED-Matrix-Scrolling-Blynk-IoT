@@ -2,9 +2,9 @@
    Working fine with Text Input Widget & Terminal
 */
 
-#define BLYNK_TEMPLATE_ID "TMPLA6GD_LPt"
-#define BLYNK_DEVICE_NAME "LED Display"
-#define BLYNK_AUTH_TOKEN "WIe-L-q33-NCw-F_hqbUfQgYeFWZAWqp"
+#define BLYNK_TEMPLATE_ID "Template ID"
+#define BLYNK_DEVICE_NAME "Device name"
+#define BLYNK_AUTH_TOKEN "Auth Token"
 
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(D6, D7);
@@ -14,8 +14,8 @@ SoftwareSerial mySerial(D6, D7);
 #include <BlynkSimpleEsp8266.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Office"; // Change your Wifi/ Hotspot Name
-char pass[] = "sauhard12"; // Change your Wifi/ Hotspot Password
+char ssid[] = "********"; // Change your Wifi/ Hotspot Name
+char pass[] = "********"; // Change your Wifi/ Hotspot Password
 
 int x = 0;
 bool text = false;
